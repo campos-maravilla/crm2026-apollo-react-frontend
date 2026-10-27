@@ -1,0 +1,72 @@
+@import "tailwindcss";
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+aside.active{ 
+    left: -260px;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+   right:  190px;
+}
+
+aside.tabla{     
+        left: -190px;
+}
+
+
+
+/* @media  (max-width: 640px) {
+   .fa-solid{
+    display: none;
+   }
+    
+}
+
+@media  (max-width: 768px) {
+   .fa-solid{
+    display: none;
+   }
+    
+} */
+
+ @media  (max-width: 640px) {
+   .header-container, .profile{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+        flex-direction: column-reverse;
+    padding: 3px;
+    margin-top: 5px;
+   }
+    
+}
+
+ @media  (max-width: 640px) {
+  .hamburguer {
+   margin-top: 20px;
+  }
+  .btn-cerrarSesion{
+   margin-bottom: 20px;
+  }
+  aside{
+   height: 100vh;
+  }
+    
+}
+ @media  (min-width: 420px) {
+ aside.active{ 
+  
+    left: -460px;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+   right:  290px;
+   width: 300px;
+}
+  
+
+}
+
