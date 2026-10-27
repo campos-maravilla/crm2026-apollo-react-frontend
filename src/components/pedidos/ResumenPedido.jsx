@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import PedidoContext from '../../contextpedidos/contextPedidos/PedidoContext'
-import ProductoResumen from './Productoresumen'
+import ProductoResumen from './ProductoResumen'
 
 
 export default function ResumenPedido() {
