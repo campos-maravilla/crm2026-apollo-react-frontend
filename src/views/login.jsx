@@ -1,7 +1,7 @@
 import { gql, useMutation } from "@apollo/client";
 import { useFormik } from "formik";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import * as Yup from 'yup';
 
 const AUTENTICAR_USUARIO = gql`
@@ -127,6 +127,7 @@ export default function Login() {
                             value="Iniciar Sesiòn"
                         />
                     </form>
+                        
                 </div>
             </div>
         </div>

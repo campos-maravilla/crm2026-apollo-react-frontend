@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { useFormik } from 'formik';
 import { gql, useMutation } from '@apollo/client';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const NUEVA_CUENTA = gql`
   mutation nuevoUsuario($input:UsuarioInput) {
@@ -165,6 +165,7 @@ export default function Register() {
                             value="Crear Cuenta"
                         />
                     </form>
+                       
                 </div>
             </div>
         </div >
