@@ -164,6 +164,15 @@ export default function Register() {
                             className="bg-gray-800 w-full mt-5 p-2 text-white uppercase hover:bg-gray-900"
                             value="Crear Cuenta"
                         />
+                        <p className="text-center text-sm text-gray-600 mt-5">
+    ¿Ya tienes una cuenta?{' '}
+    <Link
+        to="/login"
+        className="text-blue-600 font-bold hover:underline"
+    >
+        Inicia sesión aquí
+    </Link>
+</p>
                     </form>
                        
                 </div>

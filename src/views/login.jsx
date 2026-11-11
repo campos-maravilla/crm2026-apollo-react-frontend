@@ -126,6 +126,15 @@ export default function Login() {
                             className="bg-gray-800 w-full mt-5 p-2 text-white uppercase hover:bg-gray-900"
                             value="Iniciar Sesiòn"
                         />
+                        <p className="text-center text-sm text-gray-600 mt-5">
+    ¿No tienes una cuenta?{' '}
+    <Link
+        to="/register"
+        className="text-blue-600 font-bold hover:underline"
+    >
+        Regístrate aquí
+    </Link>
+</p>
                     </form>
                         
                 </div>
